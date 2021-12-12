@@ -1,4 +1,4 @@
-import { authReducer } from "../../auth/authReducer"
+import { authReducer } from "../../auth/authReducer";
 import { types } from "../../types/types";
 
 describe('Pruebas en authReducer', () => {
@@ -28,5 +28,4 @@ describe('Pruebas en authReducer', () => {
         const state = authReducer({ logged: true, name: 'Carlos' }, action);
         expect( state ).toEqual({ logged: false });
     })
-
 })
