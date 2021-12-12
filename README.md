@@ -1,4 +1,4 @@
-# heroApp
+# HeroApp
 
 _Aplicación con información de heroes como Marvel y DC_
 
